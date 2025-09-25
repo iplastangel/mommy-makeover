@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function(){var pd=document.getElementById('pubdate'); if(pd) pd.textContent=new Date().toLocaleDateString(); var yr=document.getElementById('year'); if(yr) yr.textContent=new Date().getFullYear();}); function printArticle(){ window.print(); }
